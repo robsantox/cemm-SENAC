@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', 'Trade Winds', sans-serif;
+}
+
+.top {
+    background-color: red;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    color: white;
+    font-size: 50px;
+}
+
+.search input {
+    width: 412px;
+    padding: 8px;
+}
+
+.fa-magnifying-glass {
+    margin-left: -28px;
+}
+
+.menu {
+    display: flex;
+    color: white;
+    text-decoration: none;
+}
+
+.menu p {
+    margin: 18px;
+}
+
+.menu i {
+    margin: 0 10px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/*CEP*/
+
+.endereco {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.fa-location-dot {
+    margin-right: 10px;
+}
+
+/*NAVECAO*/
+
+.navegacao {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.navegacao ul {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    font-size: 23px;
+}
+
+.navegacao a {
+    text-decoration: none;
+    color: black;
+}
+
+.navegacao span {
+    color: red;
+}
+
+
+/*MENU-INFOS*/
+
+.menu-infos {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.info {
+    background-color: red;
+    width: 278px;
+    height: 172px;
+    display: flex;
+}
+
+.info p {
+    color: white;
+}
+
+.fa-truck-fast {
+    font-size: 80px;
+}
+
+.fa-credit-card {
+    
+    font-size: 80px;
+}
+
+.fa-mobile-screen {
+    
+    font-size: 80px;
+}
+
+
+/*BANNER background: #F9F1F1;*/
+
+.banner {
+    margin-top: 40px;
+    background-color: pink;
+    width: 1583px;
+    height: 304px;
+    display: flex;
+    justify-content: center;
+}
+
+.banner-title {
+    margin-top: 60px;
+    font-size: 50px;
+}
+
+.title {
+    font-size: 90px;
+    color: purple;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*NOVIDADES*/
+
+.novidades h3 {
+    margin-top: 40px;
+    justify-content: center;
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.produtos {
+    display: flex;
+    justify-content: space-around;
+}
+
+.seta {
+    background-color: gray;
+    width: 28px;
+    height: 28px;
+    font-size: 20px;
+}
+
+.produtos img {
+    background-color: gray;
+    width: 160px;
+    height: 135px;
+}
+
+.fa-heart {
+    color: red;
+    margin-left: -13px;
+}
+
+.produtos p {
+    text-align: center;
+    width: 160px;
+}
+
+.price {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
