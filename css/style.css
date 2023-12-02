@@ -37,6 +37,8 @@
 
 .menu i {
     margin: 0 10px;
+    color: white;
+    font-size: 20px;
 }
 
 .menu a {
@@ -44,10 +46,9 @@
     color: white;
 }
 
-
 /*CEP*/
 
-.endereco {
+.zip-code {
     display: flex;
     margin-top: 20px;
     margin-left: 30px;
@@ -59,12 +60,12 @@
 
 /*NAVECAO*/
 
-.navegacao {
+.navigation {
     width: 960px;
     margin: 0 auto;
 }
 
-.navegacao ul {
+.navigation ul {
     margin-top: 20px;
     display: flex;
     justify-content: space-around;
@@ -73,12 +74,12 @@
     font-size: 23px;
 }
 
-.navegacao a {
+.navigation a {
     text-decoration: none;
     color: black;
 }
 
-.navegacao span {
+.navigation span {
     color: red;
 }
 
@@ -92,54 +93,155 @@
 }
 
 .info {
+    color: white;
     background-color: red;
     width: 278px;
     height: 172px;
-    display: flex;
 }
 
-.info p {
-    color: white;
+
+.trucker h3 {
+    position: relative;
+    top: -27px;
+    left: 68px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 400;
 }
 
 .fa-truck-fast {
-    font-size: 80px;
+    position: relative;
+    top: 42px;
+    left: 20px;
 }
 
-.fa-credit-card {
-    
-    font-size: 80px;
+.trucker p {
+    position: relative;
+    left: 18px;
 }
 
-.fa-mobile-screen {
-    
-    font-size: 80px;
+.card h3 {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    font-size: 32px;
+    font-weight: 400;
 }
 
+.card i {
+    position: relative;
+    top: 08px;
+    left: 92px;
+}
+
+.mobile h3 {
+    position: relative;
+    top: -59px;
+    left: 82px;
+    font-size: 28px;
+    font-weight: 400;
+    text-align: center;
+    width: 182px;
+    height: 36px;
+}
+
+.mobile i {
+    position: relative;
+    top: 50px;
+    left: 17px;
+}
+
+.clock i {
+    color: black;
+    position: relative;
+    font-size: 90px;
+    top: 17px;
+    left: 96px;
+}
+
+.clock h3 {
+    position: relative;
+    top: -38px;
+    left: 85px;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.clock h4 {
+    position: relative;
+    top: -12px;
+    left: 64px;
+    font-weight: 400;
+}
+
+.clock p {
+    position: relative;
+    top: 6px;
+    left: 18px;
+}
+
+
+.fa-truck-fast, .fa-credit-card, .fa-mobile-screen {
+    font-size: 80px;
+}
 
 /*BANNER background: #F9F1F1;*/
 
 .banner {
     margin-top: 40px;
     background-color: pink;
-    width: 1583px;
-    height: 304px;
+    
     display: flex;
     justify-content: center;
 }
 
 .banner-title {
-    margin-top: 60px;
+    margin-top: 40px;
     font-size: 50px;
+    text-align: center;
 }
 
-.title {
+.banner-image {
+    position: relative;
+    left: -355px;
+    top: 6px;
+}
+
+.pink-title {
     font-size: 90px;
-    color: purple;
-    font-family: 'Times New Roman', Times, serif;
+    color: #E43795;
+    font-family: 'Trade Winds';
+    font-weight: 400;
 }
 
-/*NOVIDADES*/
+.chevron-banner-left {
+    background-color: #a7a7a7;
+    width: 52px;
+    height: 76px;
+    position: relative;
+    top: 140px;
+    left: -318px;
+}
+
+.chevron-banner-right {
+    background-color: #a7a7a7;
+    width: 52px;
+    height: 76px;
+    position: relative;
+    top: 140px;
+    left: 317px;
+}
+
+.banner i {
+    color: white;
+    font-size: 50px;
+    position: relative;
+    top: 18px;
+    left: 8px;
+}
+
+
+/*NOVIDADES-PRODUTOS*/
 
 .novidades h3 {
     margin-top: 40px;
@@ -154,22 +256,34 @@
     justify-content: space-around;
 }
 
-.seta {
-    background-color: gray;
+.chevron-products {
+    background-color: #a7a7a7;
     width: 28px;
     height: 28px;
     font-size: 20px;
+    position: relative;
+    top: 54px;
+    left: 6px;
+}
+
+.chevron-products i {
+    color: white;
+    position: relative;
+    top: 2px;
+    left: 8px;
 }
 
 .produtos img {
-    background-color: gray;
+    background-color: #e0e0e0;
     width: 160px;
     height: 135px;
 }
 
 .fa-heart {
     color: red;
-    margin-left: -13px;
+    position: relative;
+    top: -110px;
+    left: -30px;
 }
 
 .produtos p {
