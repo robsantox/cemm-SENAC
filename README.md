@@ -2,19 +2,16 @@
 
 # Sobre o projeto
 
-(link do projeto)
-
-A C&MM é um projeto de desenvolvimento Front-end elaborado com base em um modelo do Figma, constituindo um dos exercícios do curso Técnico de Desenvolvimento de Sistemas oferecido pelo SENAC-Santos.
+https://robsantox.github.io/cemm-SENAC/
 
 O propósito desse projeto é aplicar efetivamente os conhecimentos adquiridos sobre layout e posicionamento no CSS.
 
-## Layout mobile
-![Mobile 1](https://github.com/acenelio/assets/raw/main/sds1/mobile1.png) ![Mobile 2](https://github.com/acenelio/assets/raw/main/sds1/mobile2.png)
+A C&MM é um dos projetos do curso Técnico de Desenvolvimento de Sistemas oferecido pelo SENAC-Santos, utilizando um layout do Figma.
 
 ## Layout web
-![Web 1](https://github.com/acenelio/assets/raw/main/sds1/web1.png)
+![Web 1](https://github.com/robsantox/cemm-SENAC/blob/main/assets/homepage.png)
 
-![Web 2](https://github.com/acenelio/assets/raw/main/sds1/web2.png)
+![Web 2](https://github.com/robsantox/cemm-SENAC/blob/main/assets/productpage.png)
 
 # Tecnologias utilizadas
 
